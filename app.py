@@ -35,7 +35,7 @@ if __name__ == "__main__":
     gr.ChatInterface(
         chat,
         examples=EXAMPLES,
-        title="Digital Twin",
+        title="Suvojit's Personal Assistent!",
         description="Talk to my AI twin about my career",
         chatbot=gr.Chatbot(show_label=False),
     ).launch(css=CSS, js=JS, theme=gr.themes.Base(),server_name="0.0.0.0",
